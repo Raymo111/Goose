@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Goose</string>
+    <string name="title">Tap That Goose!</string>
+    <string name="counter">10000</string>
+    <string name="copyright">&#169; Raymond Li 2020</string>
 </resources>
