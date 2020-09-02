@@ -1,6 +1,8 @@
 <resources>
-    <string name="app_name">Goose</string>
-    <string name="title">Tap That Goose!</string>
-    <string name="counter">10000</string>
-    <string name="copyright">&#169; Raymond Li 2020</string>
+	<string name="app_name">Goose</string>
+	<string name="title">Tap That Goose!</string>
+	<string name="counter"></string>
+	<string name="default_counter">1000</string>
+	<string name="copyright">&#169; Raymond Li 2020</string>
+    <string name="site">https://9000.cf/gooseapp</string>
 </resources>
