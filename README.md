@@ -1,5 +1,5 @@
 # Goose
-UWaterloo Goose Android App
+UWaterloo Goose Android App. Unleash your inner goose!
 
 *The idea for this app originated from the UW CS 225% Discord Server who wanted a goose app on Google Play.*
 
