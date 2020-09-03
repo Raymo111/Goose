@@ -1,6 +1,8 @@
 # Goose
 UWaterloo Goose Android App
 
-*This app is dedicated to the 1st-year CS students in the UW CS 225% Discord Server who wanted a goose app on Google Play.*
+*The idea for this app originated from the UW CS 225% Discord Server who wanted a goose app on Google Play.*
 
-**This is NOT complete yet**
+*All images used are from [PixaBay](https://pixabay.com).*
+
+*Thanks to arcana for testing and moral support!*

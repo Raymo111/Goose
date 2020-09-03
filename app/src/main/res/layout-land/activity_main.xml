@@ -8,9 +8,9 @@
 
 	<ImageView
 			android:id="@+id/imageView"
-			android:layout_width="409dp"
-			android:layout_height="wrap_content"
-			android:layout_marginBottom="2dp"
+			android:layout_width="389dp"
+			android:layout_height="312dp"
+			android:layout_marginBottom="24dp"
 			android:clickable="true"
 			android:contentDescription="@string/app_name"
 			android:focusable="true"
@@ -20,40 +20,43 @@
 			app:layout_constraintEnd_toEndOf="parent"
 			app:layout_constraintHorizontal_bias="0.5"
 			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/title"
 			app:srcCompat="@drawable/goose" />
 
 	<TextView
 			android:id="@+id/title"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
+			android:layout_marginTop="16dp"
 			android:text="@string/title"
 			android:textAppearance="@style/TextAppearance.AppCompat.Large"
 			android:textSize="30sp"
 			android:textStyle="bold"
 			app:layout_constraintBottom_toTopOf="@+id/counter"
 			app:layout_constraintEnd_toEndOf="parent"
-			app:layout_constraintHorizontal_bias="0.5"
 			app:layout_constraintStart_toStartOf="parent"
-			app:layout_constraintTop_toTopOf="parent" />
+			app:layout_constraintTop_toTopOf="parent"
+			app:layout_constraintVertical_bias="0.0" />
 
 	<TextView
 			android:id="@+id/counter"
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
+			android:layout_marginTop="70dp"
 			android:text="@string/counter"
 			android:textColor="@color/colorPrimaryDark"
 			android:textSize="36sp"
 			android:textStyle="bold"
-			app:layout_constraintBottom_toTopOf="@+id/imageView"
 			app:layout_constraintEnd_toEndOf="parent"
-			app:layout_constraintHorizontal_bias="0.5"
-			app:layout_constraintStart_toStartOf="parent" />
+			app:layout_constraintHorizontal_bias="0.499"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toTopOf="parent" />
 
 	<TextView
 			android:id="@+id/copyright"
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:layout_marginBottom="24dp"
+			android:layout_width="163dp"
+			android:layout_height="30dp"
+			android:layout_marginBottom="2dp"
 			android:clickable="true"
 			android:focusable="true"
 			android:focusableInTouchMode="true"
@@ -62,6 +65,7 @@
 			android:textSize="18sp"
 			android:textStyle="bold"
 			app:layout_constraintBottom_toBottomOf="parent"
-			app:layout_constraintEnd_toStartOf="@+id/imageView"
-			app:layout_constraintStart_toEndOf="@+id/imageView" />
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintHorizontal_bias="0.5"
+			app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

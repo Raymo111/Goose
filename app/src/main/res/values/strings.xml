@@ -5,4 +5,7 @@
 	<string name="default_counter">1000</string>
 	<string name="copyright">&#169; Raymond Li 2020</string>
     <string name="site">https://9000.cf/gooseapp</string>
+	<string name="firstRun">true</string>
+	<string name="firstRunMsg">The idea for this app originated from the UW CS 225% Discord Server who wanted a goose app on Google Play.\n\nAll images used are from <a href="https://pixabay.com">PixaBay</a>.\n\nThanks to arcana for testing and moral support!\n\nNote: <b>The count will be lost if you clear the app\'s data!!</b></string>
+	<string name="firstRunTitle">Welcome to Goose!</string>
 </resources>
